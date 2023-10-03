@@ -34,6 +34,9 @@ api/config/master.key
 api/.DS_Store
 api/.byebug_history
 
+# Ignore local ssl for development.
+api/*/ssl/
+
 
 ####### client #######
 # dependencies
